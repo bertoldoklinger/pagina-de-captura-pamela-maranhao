@@ -35,6 +35,7 @@ export default {
         'celularM': '375px',
         'iphonexr': '414px',
         'celularG': '425px',
+        'buttonwidth': '546px',
         'tablet': '768px',
         'redminote8': '1080px',
         'iphone14promax': '1290px',
