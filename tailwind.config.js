@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-mobile': "url('/src/assets/heroMobileBackground.jpg')",
-        'hero-desktop': "url('src/assets/heroDesktopBackground.jpg')",
-        'learning-mobile': "url('/src/assets/learningMobileBackground.jpg')",
-        'learning-desktop': "url('src/assets/learningDesktopBackground.jpg')",
-        'about-mobile': "url('/src/assets/aboutMobileBackground.jpg')",
-        'about-desktop': "url('src/assets/aboutDesktopBackground.jpg')",
+        'hero-mobile': "url('/heroMobileBackground.jpg')",
+        'hero-desktop': "url('/heroDesktopBackground.jpg')",
+        'learning-mobile': "url('/learningMobileBackground.jpg')",
+        'learning-desktop': "url('/learningDesktopBackground.jpg')",
+        'about-mobile': "url('/aboutMobileBackground.jpg')",
+        'about-desktop': "url('/aboutDesktopBackground.jpg')",
       },
       fontFamily: {
         rachelya: ['rachelya'],
@@ -31,11 +31,17 @@ export default {
         'hero-button': '1.125rem',
       },
       screens: {
+        'celularP': '320px',
+        'celularM': '375px',
         'iphonexr': '414px',
-        'iphone12pro': '390px',
-        'iphonese': '375px',
-        'pc': '1024px',
+        'celularG': '425px',
+        'tablet': '768px',
+        'redminote8': '1080px',
+        'iphone14promax': '1290px',
+        'notebook': '1366px',
+        'fullhd': '1920px'
       },
+
     },
     plugins: [],
   }
