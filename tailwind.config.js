@@ -33,6 +33,7 @@ export default {
       screens: {
         'celularP': '320px',
         'celularM': '375px',
+        'iphone12pro': '390px',
         'iphonexr': '414px',
         'celularG': '425px',
         'buttonwidth': '546px',

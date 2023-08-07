@@ -16,12 +16,12 @@ export function Learning() {
               py-2
               rounded-xl
               whitespace-nowrap
-              
               mt-[49.5rem]
 
               
-              notebook:mt-[34.5rem]
               
+
+              notebook:mt-[34.5rem]
               notebook:whitespace-nowrap
               notebook:text-3xl
               notebook:py-2
