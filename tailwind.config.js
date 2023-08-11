@@ -13,6 +13,8 @@ export default {
         'learning-desktop': "url('/learningDesktopBackground.jpg')",
         'about-mobile': "url('/aboutMobileBackground.jpg')",
         'about-desktop': "url('/aboutDesktopBackground.jpg')",
+        'contact-desktop': "url('/contactDesktopBackground.jpg')",
+        'contact-mobile': "url('/contactMobileBackground.jpg')",
       },
       fontFamily: {
         rachelya: ['rachelya'],
@@ -23,6 +25,7 @@ export default {
         'button-bg': '#FFC092',
         'p-text': '#FDC39C',
         'about-text': '#744127',
+        'contact-bg': '#E5CAB7'
       },
       fontSize: {
         'hero-title': '',

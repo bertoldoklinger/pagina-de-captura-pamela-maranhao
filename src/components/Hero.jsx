@@ -4,6 +4,11 @@
 
 
 export function Hero() {
+   const scrollToLastSection = () => {
+      const lastSection = document.querySelector('#contact');
+      lastSection.scrollIntoView({ behavior: 'smooth' });
+   };
+
    return (
       <div className=" bg-hero-mobile md:bg-hero-desktop bg-cover bg-center h-screen w-full flex flex-row align-center notebook:w-full">
          <div className=" flex flex-col h-screen w-full pt-8 px-2 iphonexr:px-4 iphonexr:pt-10  notebook:w-[32rem] notebook:ml-[12rem] notebook:pt-[8rem] fullhd:w-[32rem] fullhd:ml-[30rem] fullhd:pt-56">
@@ -24,14 +29,15 @@ export function Hero() {
             text-white 
             text-center 
             text-[1.6rem]
+            hover:text-about-text   hover:transition delay-150 duration-300 ease-in-out 
             px-8 
             p-2
             whitespace-nowrap
             rounded-xl
             shadow-xl
-            mt-[90%] 
+            mt-[80%] 
             
-            
+            iphone12pro:mt-[65%]
             buttonwidth:mt-[70%]
             notebook:text-4xl
             notebook:mt-[2rem]
@@ -48,6 +54,7 @@ export function Hero() {
             fullhd:whitespace-nowrap
             
             "
+            onClick={() => scrollToLastSection()}
             >
                QUERO ME INSCREVER
             </button> 
