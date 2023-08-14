@@ -45,6 +45,9 @@ export function Hero() {
             notebook:px-12
             notebook:max-w-[500px]
             
+            
+            opera:mr-4
+            
             fullhd:text-[2.5rem]
             fullhd:mt-11
             fullhd:px-6
