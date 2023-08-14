@@ -33,8 +33,10 @@ export function Learning() {
               notebook:text-3xl
               notebook:py-2
 
-              fullhd:mt-[51.5rem]
+              opera:mt-[51.5rem]
               
+              
+              fullhd:mt-[51.5rem]
               fullhd:whitespace-nowrap
               fullhd:text-4xl
               fullhd:p-3

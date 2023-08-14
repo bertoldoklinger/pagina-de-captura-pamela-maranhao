@@ -44,6 +44,7 @@ export default {
         'redminote8': '1080px',
         'iphone14promax': '1290px',
         'notebook': '1366px',
+        'opera': '1850px',
         'fullhd': '1920px'
       },
 

@@ -11,15 +11,15 @@ export function Hero() {
 
    return (
       <div className=" bg-hero-mobile md:bg-hero-desktop bg-cover bg-center h-screen w-full flex flex-row align-center notebook:w-full">
-         <div className=" flex flex-col h-screen w-full pt-8 px-2 iphonexr:px-4 iphonexr:pt-10  notebook:w-[32rem] notebook:ml-[12rem] notebook:pt-[8rem] fullhd:w-[32rem] fullhd:ml-[30rem] fullhd:pt-56">
-            <h1 className="text-white text-center font-rachelya text-5xl  mb-2 md:text-left md:text-6xl notebook:text-5xl fullhd:text-6xl  ">Descubra Como Viver uma Vida Próspera em Portugal!</h1>
-            <p className="font-poppins text-white text-center text-[1.24rem]  pt-2 md:text-left md:text-2xl md:leading-7 notebook:text-xl fullhd:text-2xl  ">
+         <div className=" flex flex-col h-screen w-full pt-8 px-2 iphonexr:px-4 iphonexr:pt-10  notebook:w-[32rem] notebook:ml-[12rem] notebook:pt-[8rem] opera:ml-[28.5rem]  opera:pt-52            fullhd:w-[32rem] fullhd:ml-[30rem] fullhd:pt-56">
+            <h1 className="text-white text-center font-rachelya text-5xl  mb-2 md:text-left md:text-6xl notebook:text-5xl opera:text-6xl  fullhd:text-6xl  ">Descubra Como Viver uma Vida Próspera em Portugal!</h1>
+            <p className="font-poppins text-white text-center text-[1.24rem]  pt-2 md:text-left md:text-2xl md:leading-7 notebook:text-xl opera:text-2xl fullhd:text-2xl  ">
                O Guia Completo para Brasileiros que Sonham em Morar em Portugal -
             </p>
-            <p className="font-poppins font-bold text-white text-center text-xl leading-tight md:text-left  md:text-2xl notebook:text-xl fullhd:text-2xl fullhd:pr-4">
+            <p className="font-poppins font-bold text-white text-center text-xl leading-tight md:text-left  md:text-2xl notebook:text-xl opera:text-2xl fullhd:text-2xl fullhd:pr-4">
                Conheça a Experiência de Quem já vive no País há 14 Anos!
             </p>
-            <p className="font-poppins font-extrabold text-p-text text-center text-xl leading-tight mt-1 pr-2 pt-2 md:text-left md:text-2xl md:leading-7 notebook:text-xl fullhd:text-2xl">
+            <p className="font-poppins font-extrabold text-p-text text-center text-xl leading-tight mt-1 pr-2 pt-2 md:text-left md:text-2xl md:leading-7 notebook:text-xl opera:text-2xl fullhd:text-2xl">
                Inscreva-se agora e comece sua jornada em direção a uma vida plena em Portugal!
             </p>
             <div className="flex  justify-center align-bottom">
