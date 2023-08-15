@@ -34,7 +34,7 @@ export default function Contact() {
   
   return (
     <section id="contact"   className="bg-contact-mobile  md:bg-contact-desktop bg-cover bg-center text-about-text w-full h-screen">
-      <div className="container mx-auto max-w-4xl p-4 pt-44">
+      <div className="container mx-auto max-w-4xl p-4 pt-32 opera:pt-44 fullhd:pt-44">
         <div className="mb-6">
           <h2 className="z-50 mb-2 font-poppins text-3xl font-semibold text-center">
           Não perca tempo! Se inscreva agora!
