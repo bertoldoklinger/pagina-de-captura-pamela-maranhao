@@ -1,17 +1,40 @@
+import axios from "axios";
 import { useState } from "react";
 
 export default function Contact() {
 
   const [showMessage, setShowMessage] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [cellphone, setCellphone] = useState("");
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
     setShowMessage(true);
+    
+    const data = {
+      Nome:name,
+      Email:email,
+      Whatsapp:cellphone,
+    }
+
+    
+    const response = await axios.post('https://sheet.best/api/sheets/4cd08baa-cf2f-4337-b767-f76e404e34c7', data)
+    setName("");
+    setEmail("");
+    setCellphone("");
+    console.log(response)
+
+    if(name && email && cellphone) {
+      setShowMessage(true);
+    }
+    return setShowMessage("Preencha os campos corretamente!")
+
   };
   
   return (
     <section id="contact"   className="bg-contact-mobile  md:bg-contact-desktop bg-cover bg-center text-about-text w-full h-screen">
-      <div className="container mx-auto max-w-4xl p-4 py-44">
+      <div className="container mx-auto max-w-4xl p-4 pt-44">
         <div className="mb-6">
           <h2 className="z-50 mb-2 font-poppins text-3xl font-semibold text-center">
           Não perca tempo! Se inscreva agora!
@@ -23,7 +46,9 @@ export default function Contact() {
 
         <div className="flex flex-col gap-6 ">
           <div className="basis-2/3">
-            <form>
+            <form autoComplete="off"
+            onSubmit={handleFormSubmit}
+            >
               <div className="mb-6 flex flex-col gap-3 ">    
                   <label
                     htmlFor="fullName"
@@ -37,6 +62,8 @@ export default function Contact() {
                     name="fullName"
                     id="fullName"
                     required
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
                   />
                 
                 
@@ -52,6 +79,8 @@ export default function Contact() {
                     name="email"
                     id="email"
                     required
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
                   />
                     <label
                     htmlFor="cellphone"
@@ -65,10 +94,12 @@ export default function Contact() {
                     name="cellphone"
                     id="cellphone"
                     required
+                    onChange={(e) => setCellphone(e.target.value)}
+                    value={cellphone}
                   />
                     <button
                   type="submit"
-                  onClick={handleFormSubmit}
+                  
                   className="bg-button-bg mt-4 py-3 animate-bounce text-white  font-poppins font-bold px-2 rounded-lg shadow-xl text-base whitespace-nowrap md:text-xl text-center hover:text-about-text   hover:transition delay-150 duration-300 ease-in-out "    
                 >
                   CLIQUE AQUI PARA CONCLUIR A INSCRIÇÃO
