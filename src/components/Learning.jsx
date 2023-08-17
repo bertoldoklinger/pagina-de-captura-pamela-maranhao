@@ -3,7 +3,7 @@ export function Learning() {
   const scrollToLastSection = () => {
     const lastSection = document.querySelector('#contact');
     lastSection.scrollIntoView({ behavior: 'smooth' });
- };
+};
 
   return (
     <div className="flex  justify-center bg-learning-mobile md:bg-learning-desktop bg-cover bg-center h-screen w-full">

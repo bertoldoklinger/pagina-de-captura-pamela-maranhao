@@ -5,7 +5,7 @@ export function About() {
   const scrollToLastSection = () => {
     const lastSection = document.querySelector('#contact');
     lastSection.scrollIntoView({ behavior: 'smooth' });
- };
+};
 
 
   return (
@@ -16,7 +16,7 @@ export function About() {
         <h1 className="font-rachelya  text-about-text text-5xl text-center whitespace-nowrap md:text-right md:text-7xl md:whitespace-nowrap notebook:text-6xl  opera:text-7xl  fullhd:text-7xl">Pamela Maranhão?</h1>
         <p className="font-poppins text-white text-center text-sm leading-5 md:text-right md:text-[1.30rem] notebook:text-base  opera:text-[1.30rem]  fullhd:text-[1.30rem]">Eu, Pamela Maranhão, vivo em Portugal há 14 anos e conheço cada detalhe para tornar a sua transição suave e bem-sucedida. Estava com uma vida praticamente “feita” no Brasil, mas estava muito insatisfeita… saí de uma multinacional famosa, ganhando bem, para viver uma vida fora do país. No início quando vim para portugal, encarei diversas dificuldades aqui. Porém com o passar do tempo achei o caminho ideal para prosperar.</p>
         <p className="font-poppins font-bold text-white text-center text-sm pt-2 md:text-right md:text-xl md:pt-8 notebook:text-[1rem] notebook:pt-2 opera:text-[1.30rem] fullhd:text-[1.30rem]">Não perca a oportunidade de dar o primeiro passo rumo ao seu sonho! </p>
-        <p className="font-poppins text-white text-center text-sm pt-2 md:text-right md:mb-4 md:text-xl md:pt-6 notebook:text-[1rem] notebook:pt-2  opera:text-[1.30rem]    fullhd:text-[1.30rem]">Inscreva-se agora mesmo para o nosso <span className="font-poppins font-bold text-about-text  text-base notebook:text-[1rem] opera:text-[1.30rem] fullhd:text-[1.30rem]">workshop online dia 29/08</span><span className="font-poppins font-bold text-white  text-base notebook:text-[1rem] opera:text-[1.30rem] fullhd:text-[1.30rem]"> e ganhe um planner gratuito</span> para te auxiliar nessa nova fase da vida.</p>
+        <p className="font-poppins font-bold text-white text-center text-sm pt-2 md:text-right md:mb-4 md:text-xl md:pt-6 notebook:text-[1rem] notebook:pt-2  opera:text-[1.30rem]    fullhd:text-[1.30rem]">Inscreva-se agora mesmo para o nosso <span className="font-poppins font-bold text-about-text  text-base notebook:text-[1rem] opera:text-[1.30rem] fullhd:text-[1.30rem]">workshop online dia 19/09.</span></p>
         <div className="flex justify-center ">
         <button className="
           font-poppins 
